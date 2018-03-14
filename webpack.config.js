@@ -9,9 +9,11 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      title: 'Output Management'
+      title:    'Drumming on a Cloud',
+      template: './src/index.html'
     })
   ],
+  devtool: 'inline-source-map',
   module: {
     rules: [
       {
@@ -28,7 +30,7 @@ module.exports = {
         ]
       },
       {
-        test: /\.(woff|woff2|eot|ttf|otf)$/,
+        test: /\.(wav|woff|woff2|eot|ttf|otf)$/,
         use: [
           'file-loader'
         ]

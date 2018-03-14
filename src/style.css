@@ -1,3 +1,89 @@
-.hello {
-  color: red;
+body {
+    background-color: black;
+    touch-action:     none;
+}
+
+.header {
+    font-family: Arial;
+    font-size:   20pt;
+    padding:     15px;
+    color:       white;
+}
+
+.drums {
+    width:    100%;
+}
+
+.drum-container {
+    position: relative;
+    width:    100%;
+}
+
+.drum-button {
+    position: absolute;
+}
+
+/* Position the overlay drum buttons */
+.drum-snare {
+    top:           25vw;
+    left:          21vw;
+    height:        19vw;
+    width:         19vw;
+    border-radius: 9vw;
+}
+
+.drum-high-hat {
+    top:           30vw;
+    left:          6vw;
+    height:        20vw;
+    width:         20vw;
+    border-radius: 10vw;
+}
+
+.drum-bass {
+    top:           26vw;
+    left:          46vw;
+    height:        22vw;
+    width:         8vw;
+    border-radius: 11vw;
+}
+
+.drum-left-cymbal {
+    top:           3vw;
+    left:          9.5vw;
+    height:        24vw;
+    width:         24vw;
+    border-radius: 12vw;
+}
+
+.drum-right-cymbal {
+    top:           1vw;
+    left:          65.5vw;
+    height:        26vw;
+    width:         26vw;
+    border-radius: 13vw;
+}
+
+.drum-left-tom {
+    top:           7vw;
+    left:          32vw;
+    height:        17vw;
+    width:         17vw;
+    border-radius: 8vw;
+}
+
+.drum-right-tom {
+    top:           7vw;
+    left:          50vw;
+    height:        17vw;
+    width:         17vw;
+    border-radius: 8vw;
+}
+
+.drum-far-right {
+    top:           25vw;
+    left:          66vw;
+    height:        25vw;
+    width:         25vw;
+    border-radius: 12vw;
 }

@@ -5,6 +5,13 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
+# Output
+dist/*.js
+dist/*.html
+
+# Private
+environment/env.js
+
 # Runtime data
 pids
 *.pid

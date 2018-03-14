@@ -19,6 +19,8 @@
   },
   "homepage": "https://github.com/efunneko/pubsub-experiments#readme",
   "dependencies": {
+    "audio-loader": "^1.0.3",
+    "jquery": "^3.3.1",
     "mqtt": "^2.16.0",
     "webpack": "^4.1.1",
     "webpack-cli": "^2.0.11"
